@@ -1,0 +1,10 @@
+def df_desc(df):
+    print(df.info())
+    print('-'*30)
+    print(df.describe())
+    print('-'*30)
+    print(df.describe(include=['O']))
+    print('-'*30)
+    print(df.head())
+    print('-'*30)
+    print(df.tail())
